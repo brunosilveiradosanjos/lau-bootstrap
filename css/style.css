@@ -222,6 +222,21 @@ hr {
    font-size: 1.1rem;
 }
 
+/*-- Heart Beat --*/
+.spotify-link-animation {
+   animation: heartBeat 5s infinite;
+   -webkit-animation: heartBeat 5s infinite;
+}
+
+.fa-layers {
+   color: white;
+   opacity: 0.7;
+}
+
+.fa-layers:hover {
+   opacity: 0.4;
+}
+
 /*============= FEATURES SECTION =============*/
 
 .btn-sm {
@@ -247,6 +262,11 @@ h3.heading {
    text-align: center;
    margin-bottom: 1.9rem;
 }
+
+.heading img {
+   width: 100px;
+}
+
 .heading-underline {
    width: 3rem;
    height: 0.2rem;
