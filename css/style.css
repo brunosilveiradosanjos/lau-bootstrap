@@ -182,6 +182,15 @@ hr {
    background-color: none !important;
 }
 
+/*============= BISOUROS SECTION =============*/
+
+.owl-carousel .owl-item img {
+   display: block;
+   width: 100%;
+   height: 350px;
+   object-fit: cover;
+}
+
 /*============= MUSICAS SECTION =============*/
 
 .musica a {
@@ -342,7 +351,7 @@ h3.heading {
 
 /*--- Team Light Background Image --*/
 .fixed-light {
-   background-image: url("../img/fixed/office.jpg");
+   background-image: url("../img/fixed/bisouros.jpg");
    position: fixed;
    height: 100%;
    width: 100%;
